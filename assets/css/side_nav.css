@@ -1,0 +1,82 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 54px;
+    left: 0;
+    background-color: #c4de00;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 40px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    margin: 5px 7px 5px 7px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    background-color: #9cb100;
+    display: block;
+    transition: 0.5s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    background-color: #222;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    background-color: #ff9090;
+    top: -10px;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding: 0px 4px 0px 4px;
+}
+
+.sidenav .closebtn:hover {
+    background-color: #e04242;
+}
+
+#main {
+    position: fixed;
+    z-index: 1;
+    color: #fff;
+    background-color: #c4de00;
+    transition: margin-left .5s;
+    padding: 7px 10px 7px 10px;
+    border-radius: 0 10px 10px 0px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.user_prof img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.user_prof h3{    
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.user_prof a{
+    background-color: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.user_prof span{
+    margin-left: 20%;
+    margin-bottom: 20px;
+    color: blue;
+}

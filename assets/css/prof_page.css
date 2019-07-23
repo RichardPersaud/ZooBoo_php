@@ -1,0 +1,58 @@
+.wrapper{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 800px;
+}
+
+/*.................................*/
+
+.wrapper span{
+    position: relative;
+    float: right;
+    color: yellow;
+}
+
+
+/*.....................................*/
+
+.wrapper h3{
+    color: #fff;
+}
+
+.usr-img img{
+    width: 40%;
+}
+
+
+.wrap-cont{
+    padding: 20px;
+    background-color: #efefef;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 15px 1px #000;
+}
+
+.usr-info{
+    text-align: left;
+}
+
+.usr-info li{
+    list-style: none;
+    font-size: 1.5em;
+}   
+
+
+
+/*.......mobile responsive..................................................................*/
+
+
+@media screen and (max-width: 750px){
+    .wrapper{
+        width: 90%;
+    }
+
+    .usr-img img{
+       width: 90%; 
+    }
+}
