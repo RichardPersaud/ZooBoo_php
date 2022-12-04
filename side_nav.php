@@ -1,40 +1,9 @@
-<link rel="stylesheet" type="text/css" href="../../assets/css/side_nav.css">
-
-<!-- ................................................ -->
-
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <br>
-
-  <div class="user_prof">
-
-<?php  
-
-    $prim = false;
-
-    if ($_SESSION["username"] == 'admin') {
-       echo '<span>Administrator User</span>';
-    }
-
-    elseif($prim == true){
-        echo '<span>Primium User</span>';
-    }else{
-        echo "<span>Basic User</span>";
-    }
-?>
-
-      <img src="https://i.ibb.co/KGqJHSk/Login-icon.png">
-      <a href="user-prof.php">
-        <h3><?php echo htmlspecialchars($_SESSION["username"]); ?></h3>
-      </a> 
-  </div>
-  <hr>
-
-
-<p>Information of your fav anime / watch times /etc</p>
-
-
-
+  <a href="subbed.php">Subbed Anime</a>
+  <a href="#">Dubbed Anime</a>
+  <a href="#">Anime Movies</a>
+  <a href="#">Manga <br> (Coming Soon)</a>
 </div>
 
 <div id="main">

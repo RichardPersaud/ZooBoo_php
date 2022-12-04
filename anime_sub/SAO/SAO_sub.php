@@ -2,6 +2,10 @@
     include '../../header_navfolder.php'
 ?>
 	 
+    <div id="wrapper">
+        <div class="img_banner"><img src="../../assets/img/banner.png">
+        </div>
+    </div>
 
  <div id="wrapper"> 
    <div class="anime_bio">
@@ -13,13 +17,11 @@
 
              <div class="cover_img">
 
-           <img src="https://i.ibb.co/3hgpmBK/SAO-cover.jpg" width="220" height="320">
+           <img src="../../assets/img/anime_cover/SAO cover.jpg" width="220" height="320">
         </div>
-
-        <div class="ani_descrip">
-                <h1>Synopsis</h1>
+                <h1>Description</h1>
                <p>The year is 2022, and gamers have lined up on launch day for Sword Art Online, a hotly-anticipated MMORPG that lets players connect to an immersive virtual reality world with special helmets called Nerve Gear. Kirito is one such gamer who's eager to jump back into action, having spent a great deal of time as a beta tester, and quickly becomes friends with newbie warrior Klein. But soon, Sword Art Online's 10,000 players discover that not only are they unable to log out, the only way they can return to their physical bodies is by beating the 100-level tower's final boss - that is, if their HP doesn't drop to zero first, for death in the game means death in the real world. Now, with no one else to turn to, Kirito and the other participants must survive the game as best they can – some forming guilds, others ruthlessly leaving their peers behind, and many tragically falling by the wayside or to the merciless monsters populating the lands...</p>
-        </div>     
+               
                <iframe src="https://www.youtube.com/embed/VoVciS-6mdw?autoplay=1&controls=0&loop=1" frameborder="0"  encrypted-media" allowfullscreen></iframe>
             </div>
                 
@@ -66,14 +68,14 @@
 
       <div class="signup">
           <?php
-              include '../../sign_up_sublink.php'
+              include '../sign_up_sublink.php'
           ?>
         </div>
 
 </div>
 </div>
     <?php
-    include '../../footer.php'
+    include '../footer.php'
     ?>
 </body>
 

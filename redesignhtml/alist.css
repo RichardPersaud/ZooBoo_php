@@ -1,0 +1,26 @@
+.list_container{
+	
+}
+
+.list_container{
+
+}
+
+.alist_head{
+background-color: #efefef;
+}
+
+.list_search ul li{
+	display: inline-block;
+	padding: 5px;
+}
+.list_search li:hover{
+	background-color: #e1ff00;
+}
+
+
+.first-char a{
+	font-size: .7em;
+	color: #111;
+	margin-right: 5px;
+}

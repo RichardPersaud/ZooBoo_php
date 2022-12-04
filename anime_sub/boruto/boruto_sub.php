@@ -2,6 +2,10 @@
     include '../../header_navfolder.php'
 ?>
 	 
+    <div id="wrapper">
+        <div class="img_banner"><img src="../../assets/img/banner.png">
+        </div>
+    </div>
 
  <div id="wrapper"> 
    <div class="anime_bio">
@@ -13,7 +17,7 @@
 
              <div class="cover_img">
 
-           <img src="https://i.ibb.co/4mgLdcV/boruto-cover.jpg" width="220" height="320">
+           <img src="../../assets/img/anime_cover/boruto cover.jpg" width="220" height="320">
         </div>
                 <h1>Description</h1>
                <p>The life of the shinobi is beginning to change. Boruto Uzumaki, son of Seventh Hokage Naruto Uzumaki, has enrolled in the Ninja Academy to learn the ways of the ninja. Now, as a series of mysterious events unfolds, Boruto’s story is about to begin!</p>
@@ -79,7 +83,7 @@
       <li><a href="boruto_sub_ep1.php"><img src="https://i.imgur.com/rn1a6xe.jpg" width="250" height="150"> <div class="cont_ep">Boruto SUB EP. 1</div></a></li>
 
     </ul>
-</div>
+    </div>
             <div class="cont_main_side">
                 
             </div>
@@ -87,14 +91,14 @@
 
       <div class="signup">
           <?php
-              include '../../sign_up_sublink.php'
+              include '../sign_up_sublink.php'
           ?>
         </div>
 
 </div>
-
+</div>
     <?php
-    include '../../footer.php'
+    include '../footer.php'
     ?>
 </body>
 

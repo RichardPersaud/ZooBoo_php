@@ -2,6 +2,10 @@
     include '../../header_navfolder.php'
 ?>
 
+<div id="wrapper">
+<div class="img_banner"><img src="../../assets/img/banner.png"></div>
+</div>
+
 <div id="wrapper"> 
     
 	<h2 class="text-center">Watch Boruto: Naruto Next Generations Episode 1 English Subbed</h2>

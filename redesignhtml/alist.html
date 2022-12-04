@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<title>Anime Streaming</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="shortcut icon" href="https://i.ibb.co/7N9MpRW/logo-design.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel='stylesheet' href="style.css">
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <a>
+      <img
+        src="https://img.pngio.com/hd-9rolit-best-profile-picture-anime-transparent-png-image-best-anime-png-522_603.png"
+        alt="">
+      <p>admin</p>
+    </a>
+
+    <a href="#"><i class="fa fa-users"></i> Friends</a>
+    <a href="#"><i class="fa fa-check"></i> My List</a>
+    <a href="#"><i class="fa fa-bell"></i> Notifications</a>
+    <br>
+    <hr>
+    <a href="#"><i class="fa fa-rss"></i> News</a>
+    <a href="#"><i class="fa fa-envelope"></i> Contact</a>
+    <a href="#"><i class="fa fa-gears"></i> Settings</a>
+  </div>
+
+
+
+  <!-- ========================================= -->
+  <div id="rightSidenav" class="rsidenav">
+    <a href="javascript:void(0)" class="rclosebtn" onclick="closeNavr()">&times;</a>
+
+    <div class="search_bar">
+      <form>
+        <label style="color: aliceblue;">Search <i class="fa fa-search"></i></label>
+        <input type="text" name="search" placeholder="Search...">
+        <button type="submit" style="margin-top: 50px; margin-right: -10px;"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+
+    <div class="genre">
+      <h5>Anime Genres</h5> <!-- Add More Links here-->
+      <ul>
+        <li>action</li>
+        <li>adventure</li>
+        <li>Cars</li>
+        <li>Comedy</li>
+      </ul>
+    </div>
+
+    <div class="rec_added">
+      <h5>Popular</h5>
+      <ul>
+        <li>
+          <a href="#" class="side_img">
+            <img src="https://static.akacdn.ru/files/images/2019/09/e025421f0a9bd6b24623a37a1f08303f.jpg">
+          </a>
+          <p class="side_para">Naruto Shippuden Ultra Sink <br> Rating 4.3 <br> Episodes: 500
+          </p>
+        </li>
+        <li>
+          <a href="#" class="side_img">
+            <img src="https://static.akacdn.ru/files/images/2019/09/e025421f0a9bd6b24623a37a1f08303f.jpg">
+          </a>
+          <p class="side_para">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          </p>
+
+        </li>
+        <li>
+          <a href="#" class="side_img">
+            <img src="https://static.akacdn.ru/files/images/2019/09/e025421f0a9bd6b24623a37a1f08303f.jpg">
+          </a>
+          <p class="side_para">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          </p>
+
+        </li>
+        <li>
+          <a href="#" class="side_img">
+            <img src="https://static.akacdn.ru/files/images/2019/09/e025421f0a9bd6b24623a37a1f08303f.jpg">
+          </a>
+          <p class="side_para">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          </p>
+
+        </li>
+        <li>
+          <a href="#" class="side_img">
+            <img src="https://static.akacdn.ru/files/images/2019/09/e025421f0a9bd6b24623a37a1f08303f.jpg">
+          </a>
+          <p class="side_para">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          </p>
+
+        </li>
+        <li>
+          <a href="#" class="side_img">
+            <img src="https://static.akacdn.ru/files/images/2019/09/e025421f0a9bd6b24623a37a1f08303f.jpg">
+          </a>
+          <p class="side_para">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          </p>
+
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  <!-- ============================================== -->
+
+
+  <div id="main">
+
+    <nav class="navbar navbar-inverse">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://i.ibb.co/7N9MpRW/logo-design.png" href="main_lib.php" width="60" height="60">
+      </a>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#"> <i class="fa fa-home"></i> <span>Home</span></a></li>
+          <li><a href="#"> <i class="fa fa-list"></i> <span>Anime List</span></a></li>
+          <div class="lot"><a href="logout.php" class="btn btn-danger"> <span>Sign Out</span> <i
+                class="fa fa-arrow-right"></i></a>
+          </div>
+          <!-- <li><a href="reset-password.php" class="btn btn-warning">Reset Your Password</a></li> -->
+        </ul>
+
+      </div>
+    </nav>
+
+
+    <!-- SIDE NAVIGATION -->
+    <span id="sidebtn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+    <!-- RIGHT SIDE MENU -->
+    <span id="rsidebtn" class="rightbtn" style="font-size:30px;cursor:pointer" onclick="openNavr()"><i
+        class="fa fa-search"></i>
+    </span>
+
+
+
+    <div class="right_col">
+      <div class="search_bar">
+        <form>
+
+          <input type="text" name="search" placeholder="Search...">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <h5>Anime Genres</h5> <!-- Add More Links here-->
+      <div class="genre">
+
+        <ul>
+          <li>action</li>
+          <li>adventure</li>
+          <li>Cars</li>
+          <li>Comedy</li>
+        </ul>
+      </div>
+      <h5>Popular</h5>
+      <div class="rec_added">
+
+        <ul>
+          <li>
+            <a href="#" class="side_img">
+              <img src="https://static.akacdn.ru/files/images/2019/09/e025421f0a9bd6b24623a37a1f08303f.jpg">
+            </a>
+            <p class="side_para">Naruto Shippuden Ultra Sink <br> Rating 4.3 <br> Episodes: 500
+            </p>
+          </li>
+          <li>
+            <a href="#" class="side_img">
+              <img src="https://static.akacdn.ru/files/images/2019/09/e025421f0a9bd6b24623a37a1f08303f.jpg">
+            </a>
+            <p class="side_para">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            </p>
+
+          </li>
+          <li>
+            <a href="#" class="side_img">
+              <img src="https://static.akacdn.ru/files/images/2019/09/e025421f0a9bd6b24623a37a1f08303f.jpg">
+            </a>
+            <p class="side_para">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            </p>
+
+          </li>
+          <li>
+            <a href="#" class="side_img">
+              <img src="https://static.akacdn.ru/files/images/2019/09/e025421f0a9bd6b24623a37a1f08303f.jpg">
+            </a>
+            <p class="side_para">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            </p>
+
+          </li>
+          <li>
+            <a href="#" class="side_img">
+              <img src="https://static.akacdn.ru/files/images/2019/09/e025421f0a9bd6b24623a37a1f08303f.jpg">
+            </a>
+            <p class="side_para">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            </p>
+
+          </li>
+          <li>
+            <a href="#" class="side_img">
+              <img src="https://static.akacdn.ru/files/images/2019/09/e025421f0a9bd6b24623a37a1f08303f.jpg">
+            </a>
+            <p class="side_para">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            </p>
+
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="alist.css">
+  <div class="list_container">
+      <div class="alist_head">
+        <div class="list_search">
+            <ul>
+              <li class="first-char">
+                <a href="alist.html" rel="all" class="active">All</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=0" rel="0" class="">#</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=A" rel="" class="">A</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=B" rel="" class="">B</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=C" rel="" class="">C</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=D" rel="" class="">D</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=E" rel="" class="">E</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=F" rel="" class="">F</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=G" rel="" class="">G</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=H" rel="" class="">H</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=I" rel="" class="">I</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=J" rel="" class="">J</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=K" rel="" class="">K</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=L" rel="" class="">L</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=M" rel="" class="">M</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=N" rel="" class="">N</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=O" rel="" class="">O</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=P" rel="" class="">P</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=Q" rel="" class="">Q</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=R" rel="" class="">R</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=S" rel="" class="">S</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=T" rel="" class="">T</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=U" rel="" class="">U</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=V" rel="" class="">V</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=W" rel="" class="">W</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=X" rel="" class="">X</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=Y" rel="" class="">Y</a>
+              </li>
+              <li class="first-char">
+                <a href="alist.php?anime=Z" rel="" class="">Z</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+      
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+  <script>
+
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "230px";
+      document.getElementById("main").style.marginLeft = "190px";
+      document.getElementById("main").style.opacity = ".3";
+      closeNavr();
+      document.getElementById("sidebtn").style.marginLeft = "-100px";
+      document.getElementById("sidebtn").style.zIndex = "0";
+    }
+
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+      document.getElementById("main").style.opacity = "1";
+      //ocument.getElementById("sidebtn").style.display = "block";
+      document.getElementById("sidebtn").style.marginLeft = "-15px";
+      document.getElementById("sidebtn").style.zIndex = "1";
+    }
+
+
+    // RIGHT ================================================
+    function openNavr() {
+      document.getElementById("rightSidenav").style.width = "400px";
+      document.getElementById("main").style.marginRight = "200px";
+      document.getElementById("main").style.opacity = ".3";
+      closeNav();
+      document.getElementById("sidebtn").style.zIndex = "0";
+    }
+
+
+    function closeNavr() {
+      document.getElementById("rightSidenav").style.width = "0";
+      document.getElementById("main").style.marginRight = "0";
+      document.getElementById("main").style.opacity = "1";
+      //document.getElementById("sidebtn").style.display = "block";
+      document.getElementById("sidebtn").style.zIndex = "1";
+    }
+
+
+
+  </script>
+
+
+</body>
+
+</html>

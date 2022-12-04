@@ -3,12 +3,12 @@
 ?>
 
     <div id="wrapper"> 
-        <div class="logo_pro"><img src="https://i.ibb.co/7N9MpRW/logo-design.png" width="300" height="300" ></div>
+        <div class="logo_pro"><img src="assets/img/logo_design.png" width="300" height="300" ></div>
          <div class="small_wrap"> 
   <h1 class="text-center_con">Report</h1>
-<div class="alert"><h4><img src="https://i.ibb.co/V9Qrrmp/notice.png" width="50" height="50">This Page is Currently being Developed by the Management Team</h4></div>
+<div class="alert"><h4><img src="assets/img/notice.png" width="50" height="50">This Page is Currently being Developed by the Management Team</h4></div>
           <div class="report_img"> 
-            <center><img src="https://i.ibb.co/xL3gmg1/typing.gif"></center>
+            <center><img src="assets/img/typing.gif"></center>
           </div>
         </div>
       </div>

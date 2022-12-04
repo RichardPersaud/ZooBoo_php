@@ -34,68 +34,106 @@ jQuery(function() {
 }
 
 
+/* Blogger CSS Conflict Fix */
+
+.camera_pag_ul {
+    border: none !important;
+    background: none !important;
+    float: left;
+}
+
+.camera_pag_ul li {
+    float:inherit !important;
+    padding: inherit !important;
+    background-color: #10a18e !important;
+}
+
+.camera_pag_ul {
+    margin: 0 !important;
+    border: 0 !important;
+}
 
 </style>
 <div class="fluid_container">
     <!-- camera_slideshow camera_wrap-->
          <div class="camera_wrap" id="camera_wrap_1">
-             <div data-link="#"data-src="assets/slide_img/img_1.png">
+             <div data-link="#" data-thumb="assets/slide_img/img_1.png" data-src="assets/slide_img/img_1.png">
                 <div class="camera_caption fadeFromBottom">
-                
+                A Band New Experience for Anime Watchers.
                 </div>
             </div>
-            <div data-link="#" data-src="assets/slide_img/img_2.png">
+            <div data-link="#" data-thumb="assets/slide_img/img_2.png" data-src="assets/slide_img/img_2.png">
                 <div class="camera_caption fadeFromBottom">
-                
+                Watch All Your Favourite Anime Here!
                 </div>
             </div>
-        
-           
-            <div data-src="assets/slide_img/img_22.png">
+            <div data-link="#" data-thumb="assets/slide_img/img_3.png" data-src="assets/slide_img/img_3.png">
+                <div class="camera_caption fadeFromBottom">
+                Help Us out with your FeedBack.
+                </div>
+            </div>
+            <div data-link="#" data-thumb="assets/slide_img/img_4.png" data-src="assets/slide_img/img_4.png">
+                <div class="camera_caption fadeFromBottom">
+                Sign Up for more Features.
+                </div>
+            </div>
+            <div data-link="#" data-thumb="assets/slide_img/img_9.jpg" data-src="assets/slide_img/img_9.jpg">
+                
+            </div>
+            <div data-link="#" data-thumb="assets/slide_img/img_18.png" data-src="assets/slide_img/img_22.png">
 
             </div>
-            <div data-link="#" data-src="assets/slide_img/img_23.jpg">
+            <div data-link="#" data-thumb="assets/slide_img/img_18.png" data-src="assets/slide_img/img_23.jpg">
              
             </div>
-            <div data-link="#" data-src="assets/slide_img/img_24.png">
+            <div data-link="#" data-thumb="assets/slide_img/img_18.png" data-src="assets/slide_img/img_24.png">
                
             </div>
-            <div data-link="#" data-src="assets/slide_img/img_11.jpg">
+            <div data-link="#" data-thumb="assets/slide_img/img_18.png" data-src="assets/slide_img/img_11.jpg">
                
             </div>
-           
-            <div data-link="#" data-src="assets/slide_img/img_12.png">
+            <div data-link="#" data-thumb="assets/slide_img/img_18.png" data-src="assets/slide_img/img_5.png">
                 
             </div>
-            <div data-link="#" data-src="assets/slide_img/img_14.png">
+            <div data-link="#" data-thumb="assets/slide_img/img_18.png" data-src="assets/slide_img/img_7.png">
                 
             </div>
-            <div data-link="#" data-src="assets/slide_img/img_15.jpg">
+            <div data-link="#" data-thumb="assets/slide_img/img_12.png" data-src="assets/slide_img/img_12.png">
+                
+            </div>
+            <div data-link="#" data-thumb="assets/slide_img/img_18.png" data-src="assets/slide_img/img_14.png">
+                
+            </div>
+            <div data-link="#" data-thumb="assets/slide_img/img_15.jpg" data-src="assets/slide_img/img_15.jpg">
                
             </div>
-            <div data-link="#" data-src="assets/slide_img/img_20.jpg">
+            <div data-link="#" data-thumb="assets/slide_img/img_18.png" data-src="assets/slide_img/img_20.jpg">
                
             </div>
-            <div data-link="#" data-src="assets/slide_img/img_25.jpg">
+            <div data-link="#" data-thumb="assets/slide_img/img_18.png" data-src="assets/slide_img/img_25.jpg">
                 
             </div>
-            <div data-link="#" data-src="assets/slide_img/img_26.png">
-           
-            <div data-link="#" data-src="assets/slide_img/img_27.png">
+            <div data-link="#" data-thumb="assets/slide_img/img_18.png" data-src="assets/slide_img/img_26.png">
                 
             </div>
-            <div data-link="#" data-src="assets/slide_img/img_16.jpg">
+            <div data-link="#" data-thumb="assets/slide_img/img_8.png" data-src="assets/slide_img/img_8.png">
                 
             </div>
-            <div data-link="#" data-src="assets/slide_img/img_19.png">
+            <div data-link="#" data-thumb="assets/slide_img/img_18.png" data-src="assets/slide_img/img_27.png">
                 
             </div>
-            <div data-link="#" data-src="assets/slide_img/img_17.png">
+            <div data-link="#" data-thumb="assets/slide_img/img_16.jpg" data-src="assets/slide_img/img_16.jpg">
                 
             </div>
-            <div data-link="#" data-src="assets/slide_img/img_18.png">
+            <div data-link="#" data-thumb="assets/slide_img/img_18.png" data-src="assets/slide_img/img_19.png">
+                
+            </div>
+            <div data-link="#" data-thumb="assets/slide_img/img_17.png" data-src="assets/slide_img/img_17.png">
+                
+            </div>
+            <div data-link="#" data-thumb="assets/slide_img/img_18.png" data-src="assets/slide_img/img_18.png">
                 <div class="camera_caption fadeFromBottom">
-                
+                Hope you Enjoy your Experience here :)
                 </div>
             </div>
         

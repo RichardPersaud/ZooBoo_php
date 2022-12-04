@@ -1,9 +1,3 @@
-<?php
-
-session_start();
-
-?>
-
 <!DOCTYPE html>
 <html>
 
@@ -24,7 +18,7 @@ session_start();
     <link rel="stylesheet" href="../../assets/css/user.css">
     <link rel="stylesheet" href="../../assets/css/searchbox.css">
     <!--tab icon-->
-    <link rel="shortcut icon" href="https://i.ibb.co/7N9MpRW/logo-design.png">
+    <link rel="shortcut icon" href="../../assets/img/logo_design.png">
     <!--tab icon-->
 </head>
 
@@ -42,7 +36,7 @@ session_start();
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="../../index.php"> 
-        <img src="https://i.ibb.co/7N9MpRW/logo-design.png" href="index.php" width="60" height="60" >
+        <img src="../../assets/img/logo_design.png" href="index.php" width="60" height="60" >
       </a>
     </div>
 
@@ -59,19 +53,11 @@ session_start();
        <li><a href="../../contact.php">Contact</a></li>
         
       </ul>
-
-
-      <div class="page-header">
-            <p>
-                <a href="logout.php" class="btn btn-danger">Sign Out</a>
-                <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
-            </p>
-        </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../../sign_up.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="../../login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
     </div>
   </div>
 
 </nav>
-
-<!--for the side menue-->
-<?php include '../../side_navfolder.php' ?>
-<!--for the side menue-->

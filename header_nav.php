@@ -1,7 +1,3 @@
-<?php
-  session_start();
-?>
-
 <!DOCTYPE html>
 <html>
 
@@ -21,18 +17,17 @@
     <link rel="stylesheet" href="assets/css/user.css">
     <link rel="stylesheet" href="assets/css/searchbox.css">
     <!--tab icon-->
-    <link rel="shortcut icon" href="https://i.ibb.co/7N9MpRW/logo-design.png">
+    <link rel="shortcut icon" href="assets/img/logo_design.png">
     <!--tab icon-->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="assets/css/drop.css">
 <link rel="stylesheet" type="text/css" href="assets/css/side_nav.css">
-<link rel="stylesheet" type="text/css" href="assets/css/home_item_prev.css">
 
 </head>
 
 <body>    
-<nav class="navbar navbar-inverse">
+      <nav class="navbar navbar-inverse">
 
   <div class="container-fluid">
     <div class="navbar-header">
@@ -47,7 +42,7 @@
         ?>
       Not Needed right now! -->
       <a class="navbar-brand" href="main_lib.php"> 
-        <img src="https://i.ibb.co/7N9MpRW/logo-design.png" href="main_lib.php" width="60" height="60" >
+        <img src="assets/img/logo_design.png" href="main_lib.php" width="60" height="60" >
       </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -77,7 +72,3 @@
   </div>
 
 </nav>
-
-<!--for the side menue-->
-<?php include 'side_nav.php' ?>
-<!--for the side menue-->

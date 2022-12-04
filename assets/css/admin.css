@@ -1,0 +1,76 @@
+.wrapper{
+   max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+}
+
+
+.wrap-cont{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #efefef;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 15px 1px #000;
+}
+
+.usr_data{
+    width: 100%;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.hdat{
+    max-height: 550px;
+  overflow-x: auto;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th{
+  text-align: left;
+  padding: 8px;
+}
+
+td{
+  background-color: #dddddd;
+  padding: 8px;
+}
+
+
+/*============*/
+
+.alert {
+    margin-top: 20px;
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+    opacity: 1;
+  transition: opacity 0.6s; /* 600ms to fade out */
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+.put_image img{
+    margin-left: 25%;
+    width: 50%;
+}

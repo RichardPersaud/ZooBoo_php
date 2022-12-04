@@ -5,7 +5,7 @@
         <a href="#"><i class="fa fa-instagram"></i></a>
         <a href="#"><i class="fa fa-youtube"></i></a>
         </div>
-<div class="donate_button">
+        <div class="donate_button">
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
     <!-- Identify your business so that you can collect the payments. -->
@@ -26,27 +26,28 @@
     alt="Donate">
             <img alt="" width="1" height="1"
     src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
-    
 <a href="#">
 </a>
 </div>
         <div class="footer_left">
             <h4>Other</h4>
-             <p><li><a href="#">Developers</a></li><br>
-               <li>Sponsorships</li> <br>
-               <li> Partnerships</li></p>
-            
+            <p>For Your Benifit!</p>
+            <ul>
+                <li>Partnership</li>
+                <li>Sponsership</li>
+                <li>Advertisment</li>
+            </ul>
         </div>
 
         <div class="footer_right">
             <h4>Contact Us</h4>
-            <p>Give Us Feedback:</p>
+            <p>Feel free to send us a message!</p>
             <ul>
                 <li>#: 869-665-2572</li>
                 <li>@:nukenoob2010@gmail.com</li>
-                <li>Visit: www.notthissite.com</li>
+                <li>Visit: www.example.com</li>
             </ul>    
             <div class="copyright"> 
-                <h6>Site Copyrighted By Richard © 2017</h6>
+                <h6>Copyright © 2017</h6>
             </div>
         </div>

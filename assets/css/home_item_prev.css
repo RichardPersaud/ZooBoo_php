@@ -1,28 +1,294 @@
 /* item_preview */
 .wrapper{
-	
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	transition: 1s;
 }
 
-.main_col h1{
-	margin-top: 10px;
-	background-color: #222;
-	text-align: center;
+@media screen and (max-width: 1200px){
+	.wrapper{
+		width: 100%;
+		transition: 1s;
+	}
+}	
+
+
+.access {
+	background-color: #333;
 	color: #fff;
-	padding-bottom: 20px;
+	padding: 10px 0px 5px 0px;
+	margin-top: -20px;
+	border-radius: 0 0 5px 5px;
 }
 
-.main_col ul{
-	padding: 0;
-	margin: 0;
+.access ul{
+	text-align: left;
+	margin-left: -20px;
+}
+.access li{
 	list-style: none;
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
 }
 
-.main_col li{
-	list-style: none;
-	margin: 15px;
+	
+
+/*.left_col{
+	padding: 10px;
 	float: left;
+	width: 20%;
+	margin-right: 10px;
+	margin-left: 30px;
+	background-color: #333;
+	color: #fff;
+	border-radius: 5px;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}*/
+
+.fluid_container {
+	float: left;
+	margin: 0 auto;
+    /* aling centered */
+    width: 100%;
+    border-radius: 10px;
+    background-color: #222;
+    max-width: 900px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
-.items_col p{
-	display: none;
+.main_col{
+	float: left;
+	margin: 0 auto;
+    /* aling centered */
+    width: 650px;
+    border-radius: 10px;
+    background-color: #222;
+   	color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    
 }
+
+@media screen and (min-width: 1000px){
+	.main_col{
+		width: 650px;
+	}
+}
+
+
+.main_text p{
+	text-align: center;
+}
+
+
+.right_col{
+	padding: 10px;
+	right: 10px;
+	top: 56px;
+	width: 300px;
+	font-size: .85em;
+	background-color: #333;
+	color: #fff;
+	border-radius: 5px;
+	position: fixed;
+	margin-left: 10px;
+}
+
+.right_col h5{
+	text-align: center;
+	font-variant-caps: unicase;
+	color: #fff;
+}
+
+
+.search_bar{
+	background-color: #111;
+	padding: 10px;
+	color: #000;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.search_bar input[type=text]{
+	width: 100%;
+	padding: 5px;
+	background-color: #444;
+	color: #fff;
+	border-style: none;
+}
+
+button{
+	margin-left: -30px;
+	position: absolute;
+	padding: 5px 10px 5px 10px;
+	background-color: #555;
+	color: #fff;
+	border-style: none;
+}
+
+.genre{
+	background-color: #111;
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.genre li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+}
+.genre ul{
+	margin-left: -20px;
+}
+
+.rec_added{
+	background-color: #111;
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.rec_added li{
+	list-style: none;
+	padding: 5px;
+}
+.rec_added ul{
+	margin-left: -40px;
+}
+
+
+
+@media screen and (max-width: 800px){
+	.right_col{
+		width: 97%;
+		position: absolute;
+	}
+	.main_col{
+		position: relative;
+		width: 100%;
+		margin-top: 220px;
+	}
+	.rec_added{
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+.update_access {
+	background-color: #333;
+	color: #fff;
+	padding: 5px;
+	margin-top: 20px;
+}
+
+.update_access h4{
+	color: #fff;
+}
+
+
+.update_access ul{
+	margin-left: -40px;
+}
+
+.update_access li{
+	list-style: none;
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+
+.rec_updated_item{
+	background-color: #111;
+	color: #fff;
+	padding: 5px;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+.item_card{
+	margin-top: 10px;
+	margin-right: 2.5px;
+	margin-left: 2.5px;
+	display: inline-block;
+}
+
+.img img{
+	max-height: 200px;
+	max-width: 150px;
+}
+.name{
+	margin-top: -20px;
+	display: inline-block;
+	background-color: #444;
+	padding:5px 5px;
+	height:auto ; 
+	width:140px ;
+}
+
+
+
+
+
+
+.currently_going{
+	background-color: #333;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.on_access ul{
+	margin-left: -40px;
+}
+
+.on_access li{
+	list-style: none;
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+.going_item{
+	background-color: #111;
+}
+
+.sma img{
+	height: 100px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: -4px;
+}
+.going_item p{
+	position: absolute;
+	margin-top: 10px;
+	display: inline-block;
+	color: #fff;
+}
+
+.it h6 { 
+	display: inline-block;
+	color: #fff;
+	margin-top: -10px;
+}
+

@@ -1,7 +1,11 @@
 <?php
     include '../../header_navfolder.php'
 ?>
-
+	 
+    <div id="wrapper">
+        <div class="img_banner"><img src="../../assets/img/banner.png">
+        </div>
+    </div>
 
  <div id="wrapper"> 
    <div class="anime_bio">
@@ -13,7 +17,7 @@
 
              <div class="cover_img">
 
-           <img src="https://i.ibb.co/sHCCsvg/foodwars-s1-cover.jpg" width="220" height="320">
+           <img src="../../assets/img/anime_cover/foodwars s1 cover.jpg" width="220" height="320">
         </div>
                 <h1>Description</h1>
                <p>Ever since he was a child, fifteen-year-old Souma Yukihira has helped his father by working as the sous chef in the restaurant his father runs and owns. Throughout the years, Souma developed a passion for entertaining his customers with his creative, skilled, and daring culinary creations. His dream is to someday own his family's restaurant as its head chef.<br>
@@ -22,8 +26,7 @@ Yet when his father suddenly decides to close the restaurant to test his cooking
 
 As Souma and his new schoolmates struggle to survive the extreme lifestyle of Tootsuki, more and greater challenges await him, putting his years of learning under his father to the test.</p>
                
-               <iframe width="426" height="240" src="https://www.youtube.com/embed/Fh6bTCZGDuo?autoplay=1&controls=0&loop=1" frameborder="0" allow="1; encrypted-media" allowfullscreen></iframe>
-
+               <iframe src="https://www.yutube.com/embed/Fh6bTCZGDuo?autoplay=1&controls=0&playlist=vm6R8MgqR9A&loop=1" frameborder="0"  encrypted-media" allowfullscreen></iframe>
             </div>
                 
     </div>

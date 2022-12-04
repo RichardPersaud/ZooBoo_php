@@ -110,22 +110,22 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Zooboo</title>
+	<title>Zooboo</title>
 <!-- Landing page/login page for new users -->
 <link rel="stylesheet" type="text/css" href="assets/css/landing.css">
 </head>
 <body>
-    <div class="wrapper">
-        <h1>Welcome to Zooboo</h1>
+	<div class="wrapper">
+		<h1>Welcome to Zooboo</h1>
 
-        <div class="logo_img">
-            <img src="assets/img/logo_design.png">
-        </div>
+		<div class="logo_img">
+			<img src="assets/img/logo_design.png">
+		</div>
 
 
-    <div class="landing_form">
+	<div class="landing_form">
 
-        <h2>Login</h2>
+		<h2>Login</h2>
         <p>Please fill in your credentials to login.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
@@ -140,21 +140,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Login">
-               <a href="#"><p class="forgot">Forgot Password?</p></a>
-
-<?php 
-include 'sign_up_sublink.php';
-?> 
- <a class="btn btn-success btn-lg" role="button" href="sign_up.php"></i>Sign Up!</a>
+               <a href="secure.php"><p class="forgot">Forgot Password?</p></a> 
             </div>
             <!-- <p>Don't have an account? <a href="register.php">Sign up now</a>.</p> -->
         </form>
 
-        </form>
-    </div>
+		</form>
+	</div>
 
 
-    </div>
+	</div>
 </body>
 </html>
 
