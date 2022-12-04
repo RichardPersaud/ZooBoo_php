@@ -11,7 +11,7 @@
 
 
 <div id="wrapper">
-<h2 class="text-center">Dubbed Anime</h1>
+<h2 class="text-center">Anime Library</h1>
 
 <div class="alphabet">
             <a class="first" href="#A">A</a>
@@ -45,15 +45,6 @@
     <a name="A">
     <h3>A</h3>
         <li><a href="boruto dub.php">Boruto Next Gen Dubbed EP.</a></li>
-        <li><a href="boruto dub.php">Boruto Next Gen Dubbed EP.</a></li>
-        <li><a href="boruto dub.php">Boruto Next Gen Dubbed EP.</a></li>
-        <li><a href="boruto dub.php">Boruto Next Gen Dubbed EP.</a></li>
-        <li><a href="boruto dub.php">Boruto Next Gen Dubbed EP.</a></li>
-        <li><a href="boruto dub.php">Boruto Next Gen Dubbed EP.</a></li>
-        <li><a href="boruto dub.php">Boruto Next Gen Dubbed EP.</a></li>
-        <li><a href="boruto dub.php">Boruto Next Gen Dubbed EP.</a></li>
-        <li><a href="boruto dub.php">Boruto Next Gen Dubbed EP.</a></li>
-
 </div>
 
 

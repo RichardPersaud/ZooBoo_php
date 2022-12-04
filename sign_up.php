@@ -1,45 +1,24 @@
 <?php 
-
 session_start();
-
+include 'functions/config.php';
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
   <title>Zooboo</title>
 <!-- Landing page for new users -->
 <link rel="stylesheet" type="text/css" href="assets/css/landing.css">
-
 </head>
 <body>
   <div class="wrapper">
     <h1>Welcome to Zooboo</h1>
-
     <div class="logo_img">
       <img src="assets/img/logo_design.png">
     </div>
-
-
   <div class="landing_form">
           <h2 >Sign up</h2>
-
-
 <?php
-/* Database credentials. Assuming you are running MySQL
-server with default setting (user 'root' with no password) */
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'myDB');
- 
-/* Attempt to connect to MySQL database */
-$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
- 
-// Check connection
-if($link === false){
-    die("ERROR: Could not connect. " . mysqli_connect_error());
-}
+
 
 // // ...............................................
  
